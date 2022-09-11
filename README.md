@@ -1,1 +1,1 @@
-# basicsOfFrontendLab3
+# basicsOfFrontend
