@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    min-height: 100% ;
+    height: 100%;
+}
+.container{
+    background-color: black;
+    height: 100%;
+}
+header {
+    height: 10%;
+}
+main{
+    height: 80%;
+}
+footer{
+    height: 10%;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.green{
+    background-color: rgb(118, 212, 109);
+    width:30%;
+    float:left;
+    min-height: 900%;
+}
+
+main div{
+    float: left;
+}
+
+.blue{
+    background-color: rgb(77, 77, 175);
+    width:70%;
+    float:right;
+    min-height: 100%;
+}
+.yellow{
+    background-color: rgb(240, 240, 112);
+    width:40%;
+    min-height: 100%;
+    height: fit-content;
+}
+.purple{
+    background-color: rgb(211, 93, 211);
+    width:30%;
+    min-height: 112.5%;
+    float: right;
+}
+.orange{
+    background-color: orange;
+    width:70%;
+    min-height: 100%;
+    float:left;
+    clear:left;
+}
