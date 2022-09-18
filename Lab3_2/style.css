@@ -14,14 +14,14 @@ body {
 }
 
 .wrapper {
-  flex: 9;
   display: flex;
+  flex: 9;
 }
 
 aside {
-  background-color: lightgreen;
   display: flex;
   flex: 1;
+  background-image: linear-gradient(lightgreen, lightyellow);
 }
 
 .block-header {
@@ -42,19 +42,22 @@ main {
 }
 
 .yellow {
-  background-color: lightyellow;
-  display: flex;
-  flex: 2;
+  width: 60%;
+  background-image: linear-gradient(lightyellow, lightgreen);
 }
 
 .purple {
   background-color: lightpink;
-  display: flex;
-  flex: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 10%;
+  width: 30%;
 }
 
 footer {
   background-color: coral;
   display: flex;
   flex: 1;
+  width: 70%;
 }

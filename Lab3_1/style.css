@@ -28,10 +28,10 @@ footer {
 }
 
 .green {
-  background-color: rgb(118, 212, 109);
   width: 30%;
   float: left;
   min-height: 900%;
+  background-image: linear-gradient(green, yellow);
 }
 
 main div {
@@ -45,7 +45,7 @@ main div {
   min-height: 100%;
 }
 .yellow {
-  background-color: rgb(240, 240, 112);
+  background-image: linear-gradient(yellow, green);
   width: 40%;
   min-height: 100%;
   height: fit-content;
