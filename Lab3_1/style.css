@@ -31,7 +31,7 @@ footer {
   width: 30%;
   float: left;
   min-height: 900%;
-  background-image: linear-gradient(green, yellow);
+  background-image: url("img.jpg");
 }
 
 main div {
@@ -45,7 +45,7 @@ main div {
   min-height: 100%;
 }
 .yellow {
-  background-image: linear-gradient(yellow, green);
+  background-image: url("img.jpg");
   width: 40%;
   min-height: 100%;
   height: fit-content;

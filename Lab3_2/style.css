@@ -21,7 +21,7 @@ body {
 aside {
   display: flex;
   flex: 1;
-  background-image: linear-gradient(lightgreen, lightyellow);
+  background-image: url("img.jpg");
 }
 
 .block-header {
@@ -43,7 +43,7 @@ main {
 
 .yellow {
   width: 60%;
-  background-image: linear-gradient(lightyellow, lightgreen);
+  background-image: url("img.jpg");
 }
 
 .purple {
